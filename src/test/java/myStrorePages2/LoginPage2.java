@@ -3,6 +3,7 @@ package myStrorePages2;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class LoginPage2 {
     private WebDriver driver;
@@ -12,6 +13,9 @@ public class LoginPage2 {
         this.driver = driver;
 
     }
+
+    @FindBy(xpath = "//*[@id=\"_desktop_user_info\"]/div/a/span")
+    private WebElement signInButton;
 
     public void loginAs(String email, String password) {
 

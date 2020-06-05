@@ -14,7 +14,7 @@ public class BuyPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(name = "id_address_delivery")
+    @FindBy(xpath = "//article")
     private WebElement chooseAddress;
 
     @FindBy(name = "confirm-addresses")
@@ -23,7 +23,7 @@ public class BuyPage {
     @FindBy(id = "delivery_option_1")
     private WebElement choosePrestaShop;
 
-    @FindBy(name = "confirmDeliveryOption")
+    @FindBy(xpath = "//*[@id='js-delivery']/button")
     private WebElement clickContinueShipping;
 
     @FindBy(id = "payment-option-1")
@@ -32,7 +32,7 @@ public class BuyPage {
     @FindBy(id = "conditions_to_approve[terms-and-conditions]")
     private WebElement agreeButton;
 
-    @FindBy(xpath = "//*[@id=\"payment-confirmation\"]/div[1]/button")
+    @FindBy(xpath = "//*[@id='payment-confirmation']/div[1]/button")
     private WebElement obligationPay;
 
 

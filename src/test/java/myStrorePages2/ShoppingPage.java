@@ -16,7 +16,7 @@ public class ShoppingPage {
     @FindBy(name = "s")
     private WebElement clickSearch;
 
-    @FindBy(xpath = "//*[@id=\"search_widget\"]/form/button/i/font/font")
+    @FindBy(xpath = "//button[@type='submit']")
     private WebElement clickLoup;
 
     @FindBy(xpath = "//*[@id='js-product-list']/div[1]/article/div/a/img")

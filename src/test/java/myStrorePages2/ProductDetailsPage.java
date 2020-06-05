@@ -19,13 +19,13 @@ public class ProductDetailsPage {
     @FindBy(id = "quantity_wanted")
     private WebElement productQuantity;
 
-    @FindBy(xpath = "//*[@id=\"add-to-cart-or-refresh\"]/div[2]/div/div[2]/button")
+    @FindBy(css =".btn.btn-primary.add-to-cart")
     private WebElement addToCart;
 
     @FindBy(xpath = "//a[@class='btn btn-primary']")
     private WebElement proceedToCheckout;
 
-    @FindBy(xpath = "//*[@id=\"main\"]/div/div[2]/div[1]/div[2]/div/a")
+    @FindBy(xpath = "//a[@class='btn btn-primary']")
     private WebElement proceedToCheckout2;
 
 
