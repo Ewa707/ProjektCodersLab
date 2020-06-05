@@ -24,7 +24,7 @@ public class ShoppingTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://prod-kurs.coderslab.pl/index.php");
+        driver.get("https://prod-kurs.coderslab.pl/index.php?controller=addresses");
 
     }
 

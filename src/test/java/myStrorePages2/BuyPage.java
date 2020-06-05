@@ -56,7 +56,7 @@ public class BuyPage {
 
 
     public void setChoosePrestaShop() {
-        choosePrestaShop.click();
+        //choosePrestaShop.click();
     }
 
 
