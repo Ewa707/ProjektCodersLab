@@ -12,7 +12,7 @@ public class UserAddressPages {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//*[@id='content']/div[3]/a")
+    @FindBy(xpath = "//a[@data-link-action='add-address']")
     private WebElement createAddressButton;
 
 
@@ -20,4 +20,6 @@ public class UserAddressPages {
         createAddressButton.click();
     }
 }
+
+
 

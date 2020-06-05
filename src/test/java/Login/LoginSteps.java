@@ -72,8 +72,8 @@ public class LoginSteps {
 
     @Then("^User delete 'My address'$")
     public void delateAddress() {
-       // WebElement delateAddress = driver.findElement(By.xpath("//*[@id=\"address-3586\"]/div[2]/a[2]"));
-       // delateAddress.click();
+        // WebElement delateAddress = driver.findElement(By.xpath("//*[@id=\"address-3586\"]/div[2]/a[2]"));
+        // delateAddress.click();
         // zły xpath
     }
 
